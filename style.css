@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 48px;
+    /* filter: invert(2); */
+
+}
+#navbar{
+    background-color: rgb(241, 43, 43);
+    padding: 18px 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 13px 29px;
+}
+
+#navbar li a:hover{
+    color: black
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: rgb(209, 39, 138);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+    font-weight: bolder;
+    background:  url('/static/pic.jpg') no-repeat center/cover;  
+    height: 600px;
+background-color: brown;
+}
+#introSection div.small{
+    font-size: 28px;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 600px; 
+    /* width: 67%; */
+    margin: auto;
+
+}
+
+#missionSection h2 {
+
+    font-size: 33px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    background-color: antiquewhite;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+
+
+.card h3{
+    text-align: center;
+    /* padding: 5px 18px; */
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+
+}
+.card-img img{
+    height: inherit;  
+}
+.card-content{
+    padding: 0 65px;
+}
+.card-content p{
+    font-size: 22px;
+    align-items: center;
+}
+#sponsorSection{
+    text-align: center;
+    height: 600px;
+    background-color: rgb(37, 65, 65);
+}
+#sponsorSection h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top:21px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sponsors{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage{
+    height: 90%;
+    margin: 20px;
+}
+
+   
+#footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(21, 26, 21);
+}

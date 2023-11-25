@@ -1,0 +1,48 @@
+extends base.pug
+block scripts 
+  script(src="/static/index.js")
+
+block style 
+    style
+      include ../static/style.css
+
+block content    
+    section#introSection
+        div Welcome to my New Gym 
+        div.small Everyday is a Good day to go Beast Mode   
+
+    section#missionSection
+        h2 Our Mission 
+        div.card
+             h3 Empowering Health and Fitness 
+             div.card-box
+                 div.card-img
+                     img(src="/static/back.jpg")          
+       
+             div.card-content
+                p This is the best Gym in Our town
+        div.card
+             h3 Building Strong Bodies 
+              div.card-box
+                 div.card-img
+                     img(src="/static/chest.jpg")          
+       
+             div.card-content
+                p This is the best Gym in Our town 
+        div.card
+             h3 Community Wellness Hub
+              div.card-box
+                 div.card-img
+                     img(src="/static/arm.jpg")          
+       
+             div.card-content
+                p This is the best Gym in Our town    
+
+
+    section#sponsorSection
+        h2 Our Sponsors 
+        div.sponsors
+            img(src="/static/logo1.png",alt="Sponsor Img",class="spImage")
+            img(src="/static/logo2.png",alt="Sponsor Img",class="spImage")   
+            img(src="/static/logo3.png",alt="Sponsor Img",class="spImage")
+            img(src="/static/logo4.png",alt="Sponsor Img",class="spImage")
